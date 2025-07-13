@@ -1,0 +1,26 @@
+#+title: Readme
+
+* About
+A script to read a .pdf file with vector graphics and inject postscript code to specific coordinates, based on a indicator line in the pdf.
+This example inserts a text and a graphic from an .eps file.
+The injected postscript can be changed to a code block which is not nescessarily a text.
+
+The application is set to surveil a folder and add the markings to an incomming pdf and output a new pdf file with the added graphics.
+
+The use case for this application is for example to add a date or production marking to a large format print, the mark kan automatically be updated
+by the computer, be it a date or otherwise.
+
+* Functionality
+The pdf should contain a line on a specific named layer in this case "Mark1", based on the direction of a the vector calculated from the line,
+the added text or graphic is rotated.
+
+The indicator on the "Mark1" layer in the pdf is beneath the the graphic which is supposed to be seen so it is invisible, but the added
+text/graphic goes on top of everything else.
+
+
+* Examples in and output
+Input example
+[[/Images/input.png]]
+
+Output example
+[[/Images/output.png]]
