@@ -20,7 +20,9 @@ text/graphic goes on top of everything else.
 
 * Examples in and output
 Input example
+
 [[/Images/input.png]]
 
 Output example
+
 [[/Images/output.png]]
