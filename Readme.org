@@ -24,6 +24,7 @@ text/graphic goes on top of everything else.
 Input example, where the green graphics has been drawn and is a done .pdf vector graphics file, it could be anything and be more complicated.
 [[/Images/all_input.png]]
 Here we have, as you can see below, colored the lines where the text and logo insertion is gonna be placed. the Lines is on the right corresponding layers.
+As an example we have also rotated the lines to show it still works with the insertions.
 [[/Images/zoom_input.png]]
 
 Output example, where the program has run, it has added an .eps "star" from a sepperate file. It vould be a logo or a watermark that should always be added to a product.
