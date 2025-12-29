@@ -3,7 +3,7 @@
 * About
 A script to read a .pdf file with vector graphics and inject postscript code to specific coordinates, based on a indicator line in the pdf.
 This example inserts a text and a graphic from an .eps file.
-The injected postscript can be changed to a code block which is not nescessarily a text.
+The injected postscript can be changed to a code block which is not nescessarily a text for example a logo.
 
 The application is set to surveil a folder and add the markings to an incomming pdf and output a new pdf file with the added graphics.
 
@@ -19,10 +19,12 @@ text/graphic goes on top of everything else.
 
 
 * Examples in and output
-Input example
+Input example, where the green graphics has been drawn and is a done .pdf vector graphics file, it could be anything and be more complicated.
 
 [[/Images/input.png]]
 
-Output example
+Output example, where the program has run, it has added an .eps "star" from a sepperate file. It vould be a logo or a watermark that should always be added to a product.
+It has also drawn a text on the line in the layer specified by the user. The size and Font of the text is hardcoded but can be changed, just remember to configure Ghostscript.
+The text could be a time indicater which always changes, making the finished product much faster to produce (and more precise).
 
 [[/Images/output.png]]
