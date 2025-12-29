@@ -5,6 +5,8 @@ A script to read a .pdf file with vector graphics and inject postscript code to 
 This example inserts a text and a graphic from an .eps file.
 The injected postscript can be changed to a code block which is not nescessarily a text for example a logo.
 
+The cript also counts how many inserts there has been, to double check a production hasnt missed something by accident.
+
 The application is set to surveil a folder and add the markings to an incomming pdf and output a new pdf file with the added graphics.
 
 The use case for this application is for example to add a date or production marking to a large format print, the mark kan automatically be updated
