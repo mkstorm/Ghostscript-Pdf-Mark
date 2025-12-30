@@ -13,12 +13,12 @@ The use case for this application is for example to add a date or production mar
 by the computer, be it a date or otherwise.
 
 * Functionality
-The pdf should contain a line on a specific named layer in this case "Mark1", based on the direction of a the vector calculated from the line,
+The pdf should contain a line on a specific named layer, in this case we use "Mark1-Mark4", based on the direction of a the vector calculated from the line,
 the added text or graphic is rotated.
+The code has at the moment hard coded what should be added on each layer. Therefore the layer "Mark1" Gets the specified text: "In Red" and the external .eps drawing is inserted in front of the text.
 
-The indicator on the "Mark1" layer in the pdf is beneath the the graphic which is supposed to be seen so it is invisible, but the added
-text/graphic goes on top of everything else.
-
+The line indicator on the "Mark1" layer in the pdf, should be placed beneath the graphics, or be colored in the same color so it is not seen above the desired graphics. The added
+text/graphic will be placedgoes on top of everything else.
 
 * Examples in and output
 Input example, where the green graphics has been drawn and is a done .pdf vector graphics file, it could be anything and be more complicated.
